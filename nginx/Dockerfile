@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
+FROM nginx:alpine
 
 MAINTAINER Makkhawan Voraboot
 
@@ -7,4 +7,4 @@ COPY ./nginx/default.conf /etc/nginx/default.conf
 
 EXPOSE 80 443
 
-ENTRYPOINT ["nginx", "-g", "daemon on;"]
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
