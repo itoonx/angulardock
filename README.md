@@ -12,4 +12,5 @@ Getting Start
 	npm install
 	ng build --prod
 	cd ./angulardock
+	docker-compose build
 	docker-compose up -d
