@@ -9,8 +9,10 @@ Dependencies
 Getting Start
 ----------------------
 	ng new myproject
+	cd project
 	npm install
 	ng build --prod
+	git clone https://github.com/itoonx/angulardock.git
 	cd ./angulardock
 	docker-compose build
 	docker-compose up -d
